@@ -1,6 +1,6 @@
 ---
 - name: Install Grafana using Ansible Role
-  hosts: java_servers
+  hosts: all
   become: yes
   roles:
-    - graffana
+    - grafana
